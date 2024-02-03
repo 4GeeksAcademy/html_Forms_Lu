@@ -1,0 +1,44 @@
+ <div class="d-inline-flex">
+    <form>
+        <nav class="navbar fixed-top bg-body-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h4>Payment Form Example</h4></a>
+            </div>
+          </nav>
+          
+          <!--Necesito un div en Rojo "some fields are missing"-->
+          <!--3 containers;
+            1.con warning, field set/card/cvd/amount CENTER
+            2.con fieldset firs name/city/credit card options #dots IZQUIERDA
+            3.con fieldset last name,state/cc, box coments
+        -->
+<!--Primero 3 inputs en row, 1 largo- medio - largo -->
+<P> AQUI VAN LOS INPUTS DE INFORMACION</P>
+
+
+<!-- botones no tienen funcion asociada-->
+          <nav class="navbar fixed-bottom bg-body-secondary">
+            <div class="container-fluid justify-content-md-end">
+              <a class="navbar-brand" href="#">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
+                    <button class="btn btn-primary" type="button">Send</button>
+                  </div>
+              </a>
+            </div>
+          </nav>
+    </form>
+    </div>
+
+ <span class="border border-dark-subtle"></span>
+
+ <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <a class="navbar-brand" href="#">Offcanvas navbar</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+    ...
+  </div>
+</nav>
+ 
